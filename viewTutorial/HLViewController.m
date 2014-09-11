@@ -43,10 +43,11 @@
     CGRect buttonFrame = CGRectMake(0,0,buttonSize,buttonSize);
     _button = [[UIButton alloc] initWithFrame:buttonFrame];
     _button.backgroundColor = [UIColor redColor];
+    _button.showsTouchWhenHighlighted = true;
     [_gridView addSubview:_button];
     [_button setTitle:@"Hit me" forState:UIControlStateNormal];
     [_button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [_button adjustsImageWhenHighlighted];
+    
     
     // create target for button
     [_button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
