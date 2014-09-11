@@ -21,6 +21,7 @@
 		0B7E749E19C1182B00CA1AF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7E748019C1182B00CA1AF2 /* UIKit.framework */; };
 		0B7E74A619C1182B00CA1AF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E74A419C1182B00CA1AF2 /* InfoPlist.strings */; };
 		0B7E74A819C1182B00CA1AF2 /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E74A719C1182B00CA1AF2 /* viewTutorialTests.m */; };
+		0B7E74B319C11B9B00CA1AF2 /* HLGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E74B219C11B9B00CA1AF2 /* HLGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0B7E74A319C1182B00CA1AF2 /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		0B7E74A519C1182B00CA1AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B7E74A719C1182B00CA1AF2 /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		0B7E74B119C11B9B00CA1AF2 /* HLGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGrid.h; sourceTree = "<group>"; };
+		0B7E74B219C11B9B00CA1AF2 /* HLGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				0B7E748E19C1182B00CA1AF2 /* Main.storyboard */,
 				0B7E749119C1182B00CA1AF2 /* HLViewController.h */,
 				0B7E749219C1182B00CA1AF2 /* HLViewController.m */,
+				0B7E74B119C11B9B00CA1AF2 /* HLGrid.h */,
+				0B7E74B219C11B9B00CA1AF2 /* HLGrid.m */,
 				0B7E749419C1182B00CA1AF2 /* Images.xcassets */,
 				0B7E748319C1182B00CA1AF2 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B7E749319C1182B00CA1AF2 /* HLViewController.m in Sources */,
+				0B7E74B319C11B9B00CA1AF2 /* HLGrid.m in Sources */,
 				0B7E748D19C1182B00CA1AF2 /* HLAppDelegate.m in Sources */,
 				0B7E748919C1182B00CA1AF2 /* main.m in Sources */,
 			);
